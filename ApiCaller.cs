@@ -34,11 +34,24 @@ namespace PokeInfo
                         Types.Add(TypeObject["type"]["name"].Value<string>());
                     }
 
+                    // Dictionary<string,object> SpriteList = PokeObject["sprites"].Value<JObject>();
+
+                    // var items = SpriteList.SelectMany(d => d.Value).ToList();
+
+                    // List<string> Sprites = new List<string>();
+
+                    // foreach(var SpriteObject in SpriteList)
+                    // {
+                    //     Sprites.Add(SpriteObject["sprite"]["name"].Value<string>());
+                    // }
+
                     Pokemon PokeData = new Pokemon{
                         Name = PokeObject["name"].Value<string>(),
                         Weight = PokeObject["weight"].Value<long>(),
                         Height = PokeObject["height"].Value<long>(),
-                        Types = Types
+                        Types = Types,
+                        // Sprites = Sprites
+
 
                     };
                      
