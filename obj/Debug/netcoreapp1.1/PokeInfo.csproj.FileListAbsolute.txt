@@ -1,0 +1,9 @@
+/Users/bkila/Desktop/PokeInfo/bin/Debug/netcoreapp1.1/PokeInfo.deps.json
+/Users/bkila/Desktop/PokeInfo/bin/Debug/netcoreapp1.1/PokeInfo.runtimeconfig.json
+/Users/bkila/Desktop/PokeInfo/bin/Debug/netcoreapp1.1/PokeInfo.runtimeconfig.dev.json
+/Users/bkila/Desktop/PokeInfo/bin/Debug/netcoreapp1.1/PokeInfo.dll
+/Users/bkila/Desktop/PokeInfo/bin/Debug/netcoreapp1.1/PokeInfo.pdb
+/Users/bkila/Desktop/PokeInfo/obj/Debug/netcoreapp1.1/PokeInfo.csproj.CoreCompileInputs.cache
+/Users/bkila/Desktop/PokeInfo/obj/Debug/netcoreapp1.1/PokeInfo.AssemblyInfo.cs
+/Users/bkila/Desktop/PokeInfo/obj/Debug/netcoreapp1.1/PokeInfo.dll
+/Users/bkila/Desktop/PokeInfo/obj/Debug/netcoreapp1.1/PokeInfo.pdb

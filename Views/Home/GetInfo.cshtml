@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PokeInfo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>@ViewBag.Pokemon.Name</h1>
+            <p>Types:</p>
+            @foreach(var type in @ViewBag.Pokemon.Types)
+                {
+                    <p>@type</p>
+                }
+            <p>Height: @ViewBag.Pokemon.Height</p>
+            <p>Weight: @ViewBag.Pokemon.Weight</p>
+        </div>
+
+    </div>
+</body>
+</html>
